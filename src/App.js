@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import PolarAreaChart from './components/PolarAreaChart';
+import BarChart from './components/BarChart';
+import DoughnutChart from './components/DoughnutChart';
+import PieChart from './components/PieChart';
+import LineChart from './components/LineChart';
 
-function App() {
+const App = () =>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <PolarAreaChart/>
+        <BarChart/>
+        <DoughnutChart/>
+        <PieChart/>
+        <LineChart/>
     </div>
   );
 }
 
-export default App;
+export default App
