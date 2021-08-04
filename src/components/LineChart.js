@@ -8,7 +8,7 @@ const LineChart = () => {
                 data={{
                     labels: ['blue', 'green', 'orange', 'purple'],
                     datasets: [{
-                        label: 'Bar Chart',
+                        label: 'Line Chart',
                         data: [11, 16, 7, 3, 14],
                         backgroundColor: [
                             'rgb(0, 0, 255, 0.6)',
