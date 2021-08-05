@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import 'semantic-ui-css/semantic.min.css'
 import { Table } from 'semantic-ui-react'
 import Veriservices from '../services/veriservice'
 
