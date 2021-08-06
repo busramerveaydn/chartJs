@@ -10,7 +10,7 @@ const BarChart = () => {
                 data={{
                     labels: ['Çok Memnun', 'Memnun Değil'],
                     datasets: [{
-                        label: 'Bar Chart',
+                        label: 'MEMNUNİYET ANKETİ',
                         data: [1, 2],
                         backgroundColor: [
                             'rgb(0, 0, 255, 0.6)',
