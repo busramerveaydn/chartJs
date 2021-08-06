@@ -13,8 +13,8 @@ const App = () => {
   return (
     <div>
       <VeriList/>
-      <UserList />
-      {/* <BarChart />
+      {/* <UserList />
+      <BarChart />
       <DoughnutChart/>
       <LineChart/>
       <PieChart/>
