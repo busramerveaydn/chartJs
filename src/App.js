@@ -13,13 +13,13 @@ const App = () => {
   return (
     <div>
       <VeriList/>
-      {/* <UserList />
+      <UserList />
       <BarChart />
       <DoughnutChart/>
       <LineChart/>
       <PieChart/>
       <PolarAreaChart/>
-      <Rapor/> */}
+      <Rapor/>
     </div>
   );
 }

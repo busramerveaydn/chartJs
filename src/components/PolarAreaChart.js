@@ -1,11 +1,9 @@
 import React from 'react'
 import { PolarArea } from 'react-chartjs-2'
-
 const PolarAreaChart = () => {
   return (
     <div>
       <PolarArea
-
         data={{
           borderWidth: 3,
           borderAlign: 'inner',
@@ -36,5 +34,4 @@ const PolarAreaChart = () => {
     </div>
   )
 }
-
 export default PolarAreaChart
