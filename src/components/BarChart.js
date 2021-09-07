@@ -1,8 +1,11 @@
 import React from 'react'
 import { Bar } from 'react-chartjs-2'
+import VeriList from '../pages/VeriList'
+
 const BarChart = () => {
     return (
         <div>
+
             <Bar
                 data={{
                     labels: ['Çok Memnun', 'Memnun Değil'],
@@ -28,9 +31,11 @@ const BarChart = () => {
                         }
                     }
                 }}
+
+
             />
         </div>
     )
 }
-export default BarChart
 
+export default BarChart

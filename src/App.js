@@ -5,7 +5,6 @@ import BarChart from './components/BarChart';
 import DoughnutChart from './components/DoughnutChart';
 import PieChart from './components/PieChart';
 import LineChart from './components/LineChart';
-import Rapor from './components/Rapor';
 import UserList from './pages/UserList';
 import VeriList from './pages/VeriList';
 
@@ -19,7 +18,6 @@ const App = () => {
       <LineChart/>
       <PieChart/>
       <PolarAreaChart/>
-      <Rapor/>
     </div>
   );
 }
