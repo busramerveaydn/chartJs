@@ -14,5 +14,3 @@
 # Line Chart
 ![image](https://user-images.githubusercontent.com/32596414/128009197-b2c6d7f3-90eb-40a5-ac05-a514441b2160.png)
 
-
-![image](https://user-images.githubusercontent.com/32596414/128476964-7160318e-772e-42d6-8308-cc2661dee43a.png)
